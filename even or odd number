@@ -1,0 +1,15 @@
+Read a number and print number is even number or odd number
+#include <stdio.h>
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        printf("even number");
+    }
+else 
+{
+    printf("odd number");
+}
+    return 0;
+}
