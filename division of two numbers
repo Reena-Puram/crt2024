@@ -1,4 +1,4 @@
-write a program on division of two numbers
+write a program on division of two numbers using if statement
 #include <stdio.h>
 int main() {
     int a,b;
