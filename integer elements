@@ -1,0 +1,12 @@
+Read integer elements upto user enters -1
+#include <stdio.h>
+int main() {
+    int n,i;
+    for(;;)
+    {
+    scanf("%d",&n);
+if(n==-1)
+break;
+}
+    return 0;
+}user enters -1.
