@@ -1,0 +1,38 @@
+program for person details
+#include <stdio.h>
+int main() {
+    int i;
+    {
+        while(1)
+        {
+            printf("enter name  ");
+            char name[20];
+            scanf("%s",name);
+            printf("enter father name  ");
+            char fname[10];
+            scanf("%s",fname);
+            printf("branch ");
+            char branch[30];
+            scanf("%s",branch);
+            printf("enter marital status 1 for single 2 for married ");
+            int a;
+            scanf("%d",&a);
+            if(a==1)
+            continue;
+            printf("enter spouse name");
+            char sname[20];
+            scanf("%s",sname);
+            printf("no of childrens");
+            int b;
+            scanf("%d",&b);
+            printf("enter another record(y/n)");
+            char ch;
+            fflush(stdin);
+            scanf("%c",&ch);
+            if(ch=='n' || ch=='N')
+            break;
+            
+        }
+    }
+    return 0;
+}
